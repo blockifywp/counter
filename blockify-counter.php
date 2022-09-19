@@ -20,7 +20,7 @@ const DS = DIRECTORY_SEPARATOR;
 use function add_action;
 use function register_block_type;
 
-add_action( 'after_setup_theme', NS . 'register' );
+add_action( 'init', NS . 'register' );
 /**
  * Registers the block.
  *
